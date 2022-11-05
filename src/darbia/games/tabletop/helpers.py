@@ -5,7 +5,7 @@ from __future__ import annotations
 from random import randint
 
 
-def bulk_random_numbers(quantity: int, range_high: int, range_low: int = 0) -> tuple[list[int], int]:
+def bulk_random_numbers(quantity: int, range_high: int, range_low: int = 1) -> tuple[list[int], int]:
     """
     Generate bulk random numbers within the given range.
 
@@ -21,7 +21,7 @@ def bulk_random_numbers(quantity: int, range_high: int, range_low: int = 0) -> t
     Examples
     --------
     >>> bulk_random_numbers(3,1)
-    ([1,1,1],3)
+    ([1, 1, 1], 3)
 
     Returns
     -------
