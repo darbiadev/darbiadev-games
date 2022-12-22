@@ -13,8 +13,8 @@ dependencies = [
 ]
 
 [project.urls]
-repository = "https://github.com/darbiadev/darbiadev-utilities/"
-documentation = "https://docs.darbia.dev/darbiadev-utilities/"
+repository = "https://github.com/darbiadev/darbiadev-games/"
+documentation = "https://docs.darbia.dev/darbiadev-games/"
 
 [project.optional-dependencies]
 dev = [
@@ -40,7 +40,7 @@ build-backend = "setuptools.build_meta"
 [tool.sphinx]
 copyright = "Darbia"
 author = "Bradley Reynolds"
-api_dir = "darbiadev_ups"
+api_dir = "src/darbia/games"
 
 [tool.black]
 target-version = ["py310"]
